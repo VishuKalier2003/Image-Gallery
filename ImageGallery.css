@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#image-holder {
+    top: 30px;
+    float: right;
+    right: 8%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 60vh;
+    width: 130px;
+    flex-direction: column;
+    outline: 2px solid red;
+}
+
+.images {
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    outline: 2px solid blue;
+}
+
+.move-up {
+    transform: translateY(-130px);
+}
